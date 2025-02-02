@@ -5,7 +5,7 @@
 int main() 
 {
     int x=3.14;
-    printf("You entered:",x);
+    printf("%sYou entered:",x);
 
    
     return 0;
