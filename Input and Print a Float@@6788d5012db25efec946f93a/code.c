@@ -4,8 +4,8 @@
 
 int main() 
 {
-    int x;
-    printf("you entered:");
+    int x=3.14;
+    printf("You entered:");
     scanf("%s",&x);
    
     return 0;
