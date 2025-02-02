@@ -5,8 +5,8 @@
 int main() 
 {
     int x=3.14;
-    printf("You entered:");
-    scanf("%s",&x);
+    printf("You entered:",x);
+
    
     return 0;
 }
