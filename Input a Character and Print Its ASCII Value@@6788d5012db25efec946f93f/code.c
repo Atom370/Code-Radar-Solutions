@@ -6,5 +6,6 @@ int main() {
     A=65;
     Z=122;
     printf("ASCII Value: %d", A);
+    printf("ASCII Value: %d", Z);
     return 0;
 }
