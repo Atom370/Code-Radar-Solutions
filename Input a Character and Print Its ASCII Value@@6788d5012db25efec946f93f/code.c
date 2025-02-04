@@ -1,11 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    char A;
-    char Z;
-    A=65;
-    Z=122;
-    printf("ASCII Value: %d", A);
-    printf("ASCII Value: %d", Z);
+    char ch;
+    scanf("%d",ch);
+    printf("ASCII Value: %d", ch);
     return 0;
 }
