@@ -5,8 +5,8 @@ int main() {
     char Hobby[50];
     scanf("%d",&Age);
     scanf("%s %s",Name,Hobby);
-    printf("Name:%s",Name);
-    printf("Age:%d",Age);
+    printf("Name:%s\n",Name);
+    printf("Age:%d\n",Age);
     printf("Hobby:%s",Hobby);
     return 0;
 }
