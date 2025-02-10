@@ -21,7 +21,7 @@ int main() {
         printf("Not Prime");
     }
 
-    return 0;
+    return 0;
 }
         
         
