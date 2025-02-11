@@ -6,16 +6,14 @@ int getNthBit(int num, int n) {
 
 int main() {
     int number, n;
-    
-    // Prompting user for input
-    
-    scanf("%d", &number);
 
-   
+    // Reading inputs
+    scanf("%d", &number);
     scanf("%d", &n);
 
-    // Correct printf format
-    printf("%d\n", n, number, getNthBit(number, n));
+    // Print only the bit (1 or 0)
+    printf("%d\n", getNthBit(number, n));
 
     return 0;
 }
+
