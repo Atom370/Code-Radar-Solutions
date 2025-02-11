@@ -15,7 +15,7 @@ int main() {
     scanf("%d", &n);
 
     // Correct printf format
-    printf(" %dth %d is: %d\n", n, number, getNthBit(number, n));
+    printf(" : %d\n", n, number, getNthBit(number, n));
 
     return 0;
 }
